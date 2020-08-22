@@ -1,0 +1,9 @@
+O serviço responsável por servir os clientes (Android
+e iOS) será hospedado na AWS.
+
+Os aplicativos estarão disponíveis para download nas respectivas
+lojas dos sistemas operacionais.
+
+Além disso, o aplicativo contará com uma equipe de 
+suporte especializada 24h caso haja eventuais 
+problemas.

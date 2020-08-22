@@ -1,0 +1,32 @@
+Fluxo do teste:
+
+1ª Etapa: Criação de Conta - Passageiro/Motorista
+
+* Criação de conta
+ -> Caso o usuário exista, impede a criação 
+* Edição de Conta
+* Recuperação de Senha
+* Cadastro de Veículo do Motorista
+
+2ª Etapa: Pedido/Recebimento da Corrida
+
+* Pedido da Corrida (Passageiro)
+ -> Verificar Disponibilidade
+ -> Valor dentro dos 10 doláres (Caso não, corrida bloqueada)
+ -> Trajeto da Viagem
+ -> Cancelar Viagem
+ -> Método de Pagamento (Pré-cobrança, caso seja cartão)
+
+* Recebimento da Corrida (Motorista)
+ -> Receber a Corrida
+ -> Aceitar / Recusar Corrida
+ -> Trajeto até o Passageiro
+
+3ª Etapa: Corrida/Desembarque
+
+* Localização em tempo real
+
+- Chegada ao destino
+* Confirmação de Pagamento
+* Desembarque do Passageiro (Libera avaliação do Motorista)
+* Liberação do motorista para próxima corrida

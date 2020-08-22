@@ -1,0 +1,20 @@
+Tipo da Aplicação: Mobile
+
+**** Front-End ****
+
+A aplicação será construída com a biblioteca React Native,
+que proporciona uma certa facilidade na construções de aplicações
+tanto para iOS, quanto para Android. 
+
+Dessa forma, apenas um código será construído e, no momento
+do build da aplicação, será gerada uma interface nativa
+para ambos os sistemas.
+
+**** Back-End ****
+
+Será construída uma REST Api que será responsável
+por fornecer todos os recursos para o sistema.
+
+Ela será totalmente construída com Node JS.
+
+Em relação aos mapas, será utilizada a API do Google Maps.

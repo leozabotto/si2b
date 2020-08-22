@@ -1,0 +1,36 @@
+Situação:
+
+- A empresa X quer fazer viagens com um
+carro voador que transporta pessoas, com limite
+de preço de até 10 dólares por viagem, por pessoa.
+Elabora um sistema para essa operação.
+
+_____________________________________________________
+
+O usuário passageiro: 
+* Cria conta;
+* Edita perfil;
+* Recupera conta;
+* Pede a corrida;
+* Escolhe o pagamento;
+* Cancela Viagem;
+* Avalia a Corrida;
+
+O usuário motorista:
+* Cria conta;
+* Edita Perfil;
+* Recupera conta;
+* Cadastra Veículo;
+* Recebe as corridas;
+* Aceitar ou Recusar corrida;
+* Recebe o pagamento;
+
+O sistema:
+* Verifica as contas;
+* Verifica a disponibilidade para a região solicitada;
+* Calcula o valor da corrida;
+* Traça o trajeto;
+* Verifica se o valor é superior a 10 dólares por pessoa;
+* Impede a corrida caso o valor seja maior que o permitido;
+* Verifica os dados do motorista e do passageiro;
+* Impede a criação de mais de uma conta para o mesmo usuário;

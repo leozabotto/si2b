@@ -1,0 +1,57 @@
+***** Cadastro dos Usuário (Passageiro e Motorista) *****
+
+* Criação de Conta (nome, cpf, telefone, métodos
+de pagamento, endereço principal)
+* Login (e-mail e senha)
+* Edição dos Dados (todos, exceto CPF)
+* Recuperação de Senha (link temporário para alteração
+de senha via e-mail)
+
+***** Informações Exclusivas do Motorista *****
+
+* Obrigatório: Habilitação de Veículo Voador com Jatos Propulsores
+
+- Cadastro do Veículo -
+* Modelo do Veículo *
+* Cor *
+* Placa *
+* Ano *
+* Marca *
+
+***** 
+
+Após o cadastro do Motorista, a conta vai para análise:
+
+* Status da Conta (Ativa, Verificada, Em verificação, Desabilitada)
+
+Caso a Conta seja aprovada, o Sistema libera o motorista para utilização
+do app
+
+***** Interações do Sistema *****
+
+* Passageiro/Motorista (Corrida)
+
+1. Passageiro Insere os Endereços (Início e Destino)
+2. Sistema verifica a disponibilidade para a região e, caso
+esteja disponível, calcula o valor do trajeto
+3. Se o valor do trajeto for menor que 10 dólares, é liberado o botão
+para pedir a corrida e selecionar o meio de pagamento (Caso o valor seja superior a 10 dólares, 
+um aviso é exibido e não será permitido prosseguir)
+4. O Sistema alerta o motorista mais próximo que esteja livre
+5. Motorista pode Aceitar ou Recusar a corrida
+6. Caso não aceite, a solicitação é repassada para outro Motorista. Caso aceite, 
+o Morotista segue o trajeto marcado no mapa até o Passageiro 
+7. O Passageiro receberá informações a respeito do Motorista e é liberado um chat 
+para interação entre Motorista/Passageiro
+8. Passageiro é alertado no momento da chegada do Motorista e embarca
+9. Ao chegar no destino, o Motorista recebe e o Passageiro avalia a Corrida
+
+
+
+
+
+
+
+
+
+
